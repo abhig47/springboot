@@ -1,0 +1,31 @@
+package com.example.springboot.constant;
+
+public class CONSTANT {
+    public static final String CUSTOMMER = "/customer";
+
+    public static final String CREATECUSTOMER = "/createCustomer";
+
+    public static final String EMPLOYEE = "/employee";
+
+    public static final String CREATEEPLOYEE = "/createEmployee";
+
+    public static final String PAYMENT = "/payment";
+
+    public static final String CREATEPAYMENT = "/createPayment";
+
+    public static final String STUDENT = "/student";
+
+    public static final String ID = "/{id}";
+
+    public static final String SLASH = "/";
+
+    public static final String GETALL = "/getAll";
+
+    public static final String FINDALLSTUFENTWHERENAMENQ = "/findALLStudentWhereNameNQ/{name}";
+
+    public static final String GETALLSTUDENTNQ = "/getAllStudentNQ";
+
+    public static final String SAVESTUDENT = "/saveStudent";
+
+
+}
