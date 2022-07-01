@@ -5,6 +5,14 @@ public class CONSTANT {
 
     public static final String CREATECUSTOMER = "/createCustomer";
 
+    public static final String PROGRAMMERCONTROLLER = "/programmercontroller";
+
+    public static final String CREATEPROGRAMMER = "/createProgrammer";
+
+    public static final String GETALLPROGRAMMER = "/getAllProgrammer";
+
+    public static final String DELETEPROGRAMMERBYID = "/deleteProgrammerById/{id}";
+
     public static final String EMPLOYEE = "/employee";
 
     public static final String CREATEEPLOYEE = "/createEmployee";
