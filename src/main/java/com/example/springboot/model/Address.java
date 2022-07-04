@@ -3,7 +3,7 @@ package com.example.springboot.model;
 import lombok.Data;
 
 import javax.persistence.Embeddable;
-import javax.persistence.Entity;
+
 @Embeddable
 @Data
 public class Address {
