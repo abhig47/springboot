@@ -14,5 +14,5 @@ public interface StudentRepository extends JpaRepository<Student, Integer> {
     List<Student> findAllStudentUsingNQ();
 
     @Query(value = "select * from student where student_name=:name", nativeQuery = true)
-    List<Student> findALLWhereNameNQ(@Param("name")String name);
+    List<Student> findALLWhereNameNQ(@Param("name") String name);
 }
